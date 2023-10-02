@@ -7,7 +7,7 @@ int main()
 
     std::cout << " a && b = " << (a && b) << std::endl; // false
     std::cout << " a || b = " << (a || b) << std::endl; // true
-    std::cout << " !a = " << !a << std::endl; // false
-    std::cout << " !b = " << !b << std::endl; // true
+    std::cout << " !a = " << !a << std::endl;           // false
+    std::cout << " !b = " << !b << std::endl;           // true
     return 0;
 }
