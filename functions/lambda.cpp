@@ -19,4 +19,16 @@ int main()
     };
     std::cout << addText(" in my World ") << std::endl;
     
+    auto no_value = []()
+    {
+        std::cout << "lambda no value " << std::endl;
+    };
+    no_value();
+
+    auto True_or_False = [](int number) -> bool
+    {
+        return number % 2 == 0;
+    };
+    std::cout << True_or_False(3);
+
 }
