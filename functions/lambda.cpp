@@ -29,6 +29,12 @@ int main()
     {
         return number % 2 == 0;
     };
-    std::cout << True_or_False(3);
+    std::cout << True_or_False(3) << std::endl;
+    
+    auto string_lambda = [](std::string text) -> std::string
+    {
+        return "dodaje do teksu string: " + text;
+    };
+    std::cout <<string_lambda("elo lotek");
 
 }

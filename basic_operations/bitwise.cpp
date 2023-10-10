@@ -22,5 +22,7 @@ int main()
     
     int resutlt_move_right = a >> 1;
     std::cout << "a >> 1 = " << resutlt_move_right << std::endl;
+
+    
     return 0;
 }
